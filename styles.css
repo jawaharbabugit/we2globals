@@ -1,37 +1,41 @@
 /* Nav bar common for all pages */
-*{
-    font-family: 'Space Mono', monospace;
-} 
-.dropdown:hover>.dropdown-menu {
-    display: block;
-   }
-   .dropend:hover>.dropdown-menu { 
-    display: block;
-    margin-left: 200px;
-    margin-top: -32px;
-   }
+* {
+  font-family: "Space Mono", monospace;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-left: 200px;
+  margin-top: -32px;
+}
 
 /* home */
 
-.jumbotron{
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/jumbotron.gif.gif') fixed center;
-    height: 80vh;
-     
+.jumbotron {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("img/jumbotron.gif.gif") fixed center;
+  height: 80vh;
 }
 
-.jumbotron{
-    position: relative;
+.jumbotron {
+  position: relative;
 }
-.jumbotron div{
-    position: absolute;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 100px;
-    color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  
+.jumbotron div {
+  position: absolute;
+  font-family: "Abril Fatface", cursive;
+  font-size: 100px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-
-
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
