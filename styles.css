@@ -17,3 +17,9 @@
     transform: translate(-50%, -50%);
   
 }
+.dropdown:hover>.dropdown-menu {
+    display: block;
+   }
+   .dropend:hover>.dropend-menu {
+    display: block;
+   }
