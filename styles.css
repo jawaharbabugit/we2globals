@@ -1,0 +1,19 @@
+.jumbotron{
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/jumbotron.gif.gif') fixed center;
+    height: 80vh;
+     
+}
+
+.jumbotron{
+    position: relative;
+}
+.jumbotron div{
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
