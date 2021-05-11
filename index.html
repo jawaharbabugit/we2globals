@@ -11,12 +11,14 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <div style="position: relative;"><a class="navbar-brand" href="#">
-          <img src="img/logo-removebg.png" alt="" width="100" height="70"><div style="display: inline-block;">WE2GLOBAL<br>Technologies</div></a></div>
+          <div>
+          <img src="img/logo-removebg.png" alt="" width="100" height="70"></div>
+          <div style="display: inline-block; color: white; margin-top: -5px; font-size: 1.25em;">WE2GLOBAL<br>Technologies</div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Who we are</a>
+                <a class="nav-link"  href="#">Who we are</a>
               </li>
               <!-- dropright    -->
               <li class="nav-item dropdown">
@@ -35,8 +37,8 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <!-- dropright    -->
-                    <li class="dropdown-item dropend ">
-                        <a  class="dropdown-item dropdown-toggle" id="dropdown1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="dropend">
+                        <a  class="dropdown-item dropdown-toggle" id="dropdown1" href="#">
                           Web Development 
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown1">
@@ -46,11 +48,11 @@
                     </li>
                     <!-- end of dropright -->
                     <!-- dropright    -->
-                    <li class="dropdown-item dropend ">
-                      <a  class="dropdown-item dropdown-toggle" id="dropdown1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="dropend">
+                      <a  class="dropdown-item dropdown-toggle" id="dropdown2" href="#">
                         Digital Marketing
                       </a>
-                      <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                      <ul class="dropdown-menu" aria-labelledby="dropdown2">
                           <li><a class="dropdown-item" href="#">Another action</a></li>
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                       </ul>
@@ -68,7 +70,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
               </li>
-            </ul>
+               </ul>
           </div>
         </div>
       </nav>
@@ -96,20 +98,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function() {
-  $('.dropend').on("click", function(e) {
-    e.stopPropagation();
-    e.preventDefault();
 
-    if (!$(this).next('div').hasClass('show')) {
-      $(this).next('div').addClass('show');
-    } else {
-      $(this).next('div').removeClass('show');
-    }
-
-  });
-});
-</script>
 </body>
 </html>

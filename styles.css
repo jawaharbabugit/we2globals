@@ -1,3 +1,18 @@
+/* Nav bar common for all pages */
+*{
+    font-family: 'Space Mono', monospace;
+} 
+.dropdown:hover>.dropdown-menu {
+    display: block;
+   }
+   .dropend:hover>.dropdown-menu { 
+    display: block;
+    margin-left: 200px;
+    margin-top: -32px;
+   }
+
+/* home */
+
 .jumbotron{
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('img/jumbotron.gif.gif') fixed center;
     height: 80vh;
@@ -17,9 +32,6 @@
     transform: translate(-50%, -50%);
   
 }
-.dropdown:hover>.dropdown-menu {
-    display: block;
-   }
-   .dropend:hover>.dropend-menu {
-    display: block;
-   }
+
+
+
