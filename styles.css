@@ -3,6 +3,18 @@
   font-family: "Space Mono", monospace;
 }
 
+html {
+  scroll-behavior: smooth !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  scroll-behavior: smooth !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
@@ -182,6 +194,11 @@ footer h4 {
   background: #139675;
 }
 
-aboutcontainer {
+.aboutcontainer {
   font-family: Lato, sans-serif;
+}
+
+.servicecontainer ul {
+  list-style: none;
+  margin-left: 10px;
 }
