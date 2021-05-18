@@ -96,7 +96,7 @@ footer a {
 
 /* footer social icons */
 
-.social-network a.icoFacebook:hover {
+.social-network a.icoEmail:hover {
   background-color: #3B5998;
 }
 
@@ -104,7 +104,7 @@ footer a {
   background-color: #007bb7;
 }
 
-.social-network a.icoFacebook:hover i,
+.social-network a.icoEmail:hover i,
 .social-network a.icoLinkedin:hover i {
   color: #fff;
 }
@@ -164,4 +164,20 @@ footer h4 {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 10px;
+}
+
+
+.button {
+  display: inline-block;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1em;
+  padding: .8em 1.2em;
+  padding-right: 3em;
+  background: #009ED8;
+  border: none;
+  color: white;
+}
+
+.phone {
+  background: #139675;
 }
