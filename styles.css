@@ -19,9 +19,18 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.hide {
-  display: none;
+html {
+  scroll-behavior: smooth !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
+
+body {
+  scroll-behavior: smooth !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
@@ -31,12 +40,14 @@
   margin-left: 200px;
   margin-top: -32px;
 }
-nav{
-  
-  position: -webkit-sticky; /* Safari */
+
+nav {
+
+  position: -webkit-sticky;
+  /* Safari */
   position: sticky;
   top: 0px;
- 
+
 }
 
 /* home */
@@ -60,14 +71,15 @@ nav{
   padding-right: 15px;
 }
 
-.heading{
+.heading {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
 
 }
-.subheading{
+
+.subheading {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
@@ -75,12 +87,15 @@ nav{
   margin-bottom: 30px;
 
 }
+
 /* vertical tab */
-.verticaltab{box-sizing: border-box;
-width: 70%;
-display: block;
-margin-left: auto;
-margin-right: auto;}
+.verticaltab {
+  box-sizing: border-box;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Style the tab */
 .tab {
@@ -124,9 +139,10 @@ margin-right: auto;}
   border-left: none;
   height: 350px;
 }
-hr{
+
+hr {
   color: black;
-  margin-top: 10px; 
+  margin-top: 10px;
   height: 10px;
   margin-bottom: 10px;
   width: 60%;
@@ -134,14 +150,18 @@ hr{
   margin-left: auto;
   margin-right: auto;
 }
-.form-group{
+
+.form-group {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-input, textarea{
+
+input,
+textarea {
   border: black 2px solid !important;
 }
-.socials{
+
+.socials {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -149,16 +169,23 @@ input, textarea{
   margin-top: 50px !important;
   margin-bottom: 100px !important;
 }
-i{
+
+i {
   font-size: 3rem;
 }
-i span{
+
+i span {
   font-size: 0.5em;
 }
-.socials a,.socials a:focus,.socials a:active, .socials a:hover {
-     text-decoration: none;
-     color: inherit;
+
+.socials a,
+.socials a:focus,
+.socials a:active,
+.socials a:hover {
+  text-decoration: none;
+  color: inherit;
 }
+
 /*FOOTER*/
 
 footer {
@@ -300,6 +327,11 @@ footer h4 {
   background: #139675;
 }
 
-aboutcontainer {
+.aboutcontainer {
   font-family: Lato, sans-serif;
+}
+
+.servicecontainer ul {
+  list-style: none;
+  margin-left: 10px;
 }
