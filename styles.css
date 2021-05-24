@@ -397,6 +397,12 @@ footer h4 {
 
 }
 
+.card-group .card-img-top:hover {
+  opacity: 0.9;
+  transform: scale(1.01);
+  transition: .8s ease;
+}
+
 .fixed-images {
   width: 100%;
   height: 100vh;
