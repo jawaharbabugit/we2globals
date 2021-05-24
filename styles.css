@@ -1,6 +1,6 @@
 /* Nav bar common for all pages */
 * {
-  font-family: "Space Mono", monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
 }
 
