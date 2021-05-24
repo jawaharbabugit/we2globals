@@ -332,9 +332,24 @@ footer h4 {
   font-family: Lato, sans-serif;
 }
 
+.servicecontainer p,
+h6 {
+  font-size: 1.3em !important;
+}
+
 .servicecontainer ul {
   list-style: none;
   margin-left: 10px;
+}
+
+.servicecontainer ul li ul {
+  list-style: square;
+  margin-left: 10px;
+}
+
+.servicecontainer ul h4 {
+  color: #189eb8;
+  font-weight: bolder;
 }
 
 
